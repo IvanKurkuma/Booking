@@ -1,0 +1,152 @@
+/* ButtonToVer.css */
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 75, 43, 0.4);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-transform: uppercase;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(255, 75, 43, 0.6);
+  }
+  
+  .button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(255, 75, 43, 0.5);
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 75, 43, 0.5);
+  }
+
+  .LogIn{
+    background: linear-gradient(45deg, #ff416d26, #ff4b2b15);
+    border: 3px solid #ff4b2b ;
+    color: #ff4b2b;
+  }
+
+  .conteiner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.2);
+}
+
+.form{
+    background: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 7px 9px 15px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px 9px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 9px 15px 0px rgba(34, 60, 80, 0.2);
+    position: relative;
+
+}
+
+#registrForm{
+    /* margin-top: -100px; */
+    display: grid;
+    grid-template-rows: repeat(3, 50px) 5px 50px;
+    width: 200px;
+    grid-gap: 20px;
+}
+
+.buttonAvtor{
+    grid-row: 5/6;
+    border: none;
+    background:linear-gradient(45deg, #ff416c, #ff4b2b);;
+    color: white;
+    border-radius: 5px;
+    transition: filter .2s ease, box-shadow 0.2s ease ;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 15px rgba(255, 75, 43, 0.5);
+}
+
+.buttonAvtor:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(255, 75, 43, 0.6);
+}
+
+.buttonAvtor:active{
+    filter: brightness(80%);
+}
+
+input{
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ff4b2bad;
+    box-shadow: 0 3px 10px #ff4b2b58;
+}
+
+.www{
+    font-size: 30px;
+    margin:0;
+    color:#ff4b2bad
+    /* margin-top: -50px;  */
+}
+
+.buttonTo{
+    color: #ff4b2b ;
+    text-decoration:underline;
+}
+.buttonTo:hover{
+    cursor: pointer;
+}
+
+.exit{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    font-family: 50px;
+    opacity: .5;
+}
+
+.exit:hover{
+    cursor: pointer;
+}
+
+
+.h_code{
+    font-size: 25px;
+}
+#registrFormCode{
+    /* margin-top: -100px; */
+    display: grid;
+    grid-template-rows: 50px  50px;
+    width: 200px;
+    grid-gap: 20px;
+}
+
+.buttonCode{
+    height: 50px;
+}
+.formCode{
+    height: 300px;
+}
+  
